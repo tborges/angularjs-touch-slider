@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <title>AngularJS Slider</title>
+
+
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+        <link rel='stylesheet prefetch' href='https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head>
+
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
+        <script src="https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.js"></script>
+        <div ng-app="rzSliderDemo">
+            <div ng-controller="MainCtrl" class="wrapper">
+                <header>
+                    <h1>AngularJS Touch Slider</h1>
+
+                </header>
+                <article>
+                    <h2>Simple slider</h2>
+                    Model:
+                    <input id="angular" type="number" ng-model="minSlider.value" />
+                    <br/>
+                    <rzslider rz-slider-model="minSlider.value"></rzslider>
+                </article>
+
+            </div>
+        </div>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js'></script>
+        <script src='https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.js'></script>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
