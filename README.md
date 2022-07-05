@@ -4,6 +4,6 @@ Feedback is always welcome.
 
 ### [Play at CodePen](https://codepen.io/mrborges/pen/MvBGZG)
 
-### [Check Video Demo](https://youtu.be/t8Oti9z76ZM) :boom:
+### [Check Video Demo](https://www.youtube.com/shorts/12xFKOqMBjo) :boom:
 
  
